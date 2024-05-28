@@ -67,7 +67,7 @@
 
     <div class="container" style="margin-top: 60px; margin-bottom: 100px;">
         <h2>Добавить цветок</h2>
-        <form action="flowers" method="post" id="addition">
+        <form action="add" method="post" id="addition">
             <div class="form-colum">
                 <div class="form-group col-md-6">
                     <label for="name">Название:</label>

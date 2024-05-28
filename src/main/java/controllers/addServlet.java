@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet(urlPatterns = {"/addition"})
+@WebServlet(urlPatterns = {"/add"})
 public class addServlet extends HttpServlet
 {
     private final Flowers flowers = new Flowers();
