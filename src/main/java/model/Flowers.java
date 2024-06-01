@@ -56,8 +56,7 @@ public class Flowers
     {
         database = new Database(URL, LOGIN, PASSWORD);
 
-        database.executeQuery(String.format("UPDATE flowers SET name='%s', type='%s', color='%s', length=%d, price=%d" +
-                        "WHERE id=%d",
+        database.executeQuery(String.format("UPDATE flowers SET name='%s', type='%s', color='%s', length=%d, price=%d WHERE id=%d",
                 flower.getName(), flower.getType(), flower.getColor(), flower.getLength(), flower.getPrice(), ID));
 
         database.closeConnection();
